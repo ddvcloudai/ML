@@ -1,1 +1,1 @@
-
+Performing Simple Linear Reg Models. This basic SLR model presents more lucarative outcomes when applied over conplex data or big data. However, it caters an appropriate approach of best fit model when overfitting regularization is performed over relevant dataset. Make sure to proceed with server offering best processing speed when applying large dataset.
