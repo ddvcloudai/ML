@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-dataset=pd.read_csv(r'/Users/divyadeepverma/Desktop/DS/Sep22-SLR/22nd/SIMPLE LINEAR REGRESSION/Salary_Data.csv')
+dataset=pd.read_csv(r'/Users/XYZ/Desktop/DS/Sep22-SLR/22nd/SIMPLE LINEAR REGRESSION/Salary_Data.csv')
 
 #splitting the data to dv and iv
 x=dataset.iloc[:,:-1].values
