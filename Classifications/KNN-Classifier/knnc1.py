@@ -36,3 +36,20 @@ print(bias)
 variance=knn_classifier.score(X_test,y_test)
 print(variance)
 
+#Now we feed some value and find if the customer is likely to purchase car or not
+
+#new data
+new_data=np.array([[30,50000]])
+
+#scaling new data
+new_data_scaled=sc.transform(new_data)
+
+#predicting the class for new data set
+prediction=knn_classifier.predict(new_data_scaled)
+
+#Output of prediction
+print(f"Prediction for new data point is: {prediction[0]}")
+
+
+
+
